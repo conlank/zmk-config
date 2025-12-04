@@ -24,14 +24,14 @@
 <svg id="mdi:arrow-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-up" viewBox="0 0 24 24"><path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z" /></svg>
 </svg>
-<svg id="mdi:backspace-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-outline" viewBox="0 0 24 24"><path d="M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12L19,15.59M22,3A2,2 0 0,1 24,5V19A2,2 0 0,1 22,21H7C6.31,21 5.77,20.64 5.41,20.11L0,12L5.41,3.88C5.77,3.35 6.31,3 7,3H22M22,5H7L2.28,12L7,19H22V5Z" /></svg>
-</svg>
 <svg id="mdi:bluetooth-connect">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
 </svg>
 <svg id="mdi:bluetooth-settings">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-settings" viewBox="0 0 24 24"><path d="M14.88,14.29L13,16.17V12.41L14.88,14.29M13,3.83L14.88,5.71L13,7.59M17.71,5.71L12,0H11V7.59L6.41,3L5,4.41L10.59,10L5,15.59L6.41,17L11,12.41V20H12L17.71,14.29L13.41,10L17.71,5.71M15,24H17V22H15M7,24H9V22H7M11,24H13V22H11V24Z" /></svg>
+</svg>
+<svg id="mdi:caps-lock">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-caps-lock" viewBox="0 0 24 24"><path d="M9.96,13.71L12,8.29L14.03,13.72M11.14,6L6.43,18H8.36L9.32,15.43H14.68L15.64,18H17.57L12.86,6H11.14M20,2H4C2.89,2 2,2.89 2,4V20C2,21.11 2.9,22 4,22H20C21.11,22 22,21.11 22,20V4C22,2.89 21.1,2 20,2M20,20H4V4H20V20Z" /></svg>
 </svg>
 <svg id="mdi:close-thick">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-close-thick" viewBox="0 0 24 24"><path d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12L20 6.91Z" /></svg>
@@ -45,11 +45,17 @@
 <svg id="mdi:keyboard-tab">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-tab" viewBox="0 0 24 24"><path d="M20,18H22V6H20M11.59,7.41L15.17,11H1V13H15.17L11.59,16.58L13,18L19,12L13,6L11.59,7.41Z" /></svg>
 </svg>
+<svg id="mdi:lock-open-variant-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-lock-open-variant-outline" viewBox="0 0 24 24"><path d="M10 13C11.1 13 12 13.89 12 15C12 16.11 11.11 17 10 17S8 16.11 8 15 8.9 13 10 13M18 1C15.24 1 13 3.24 13 6V8H4C2.9 8 2 8.9 2 10V20C2 21.1 2.9 22 4 22H16C17.1 22 18 21.1 18 20V10C18 8.9 17.1 8 16 8H15V6C15 4.34 16.34 3 18 3S21 4.34 21 6V8H23V6C23 3.24 20.76 1 18 1M16 10V20H4V10H16Z" /></svg>
+</svg>
 <svg id="mdi:micro-sd">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-micro-sd" viewBox="0 0 24 24"><path d="M8,2A2,2 0 0,0 6,4V11L4,13V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V4A2,2 0 0,0 18,2H8M9,4H11V8H9V4M12,4H14V8H12V4M15,4H17V8H15V4Z" /></svg>
 </svg>
 <svg id="mdi:new-box">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-new-box" viewBox="0 0 24 24"><path d="M20,4C21.11,4 22,4.89 22,6V18C22,19.11 21.11,20 20,20H4C2.89,20 2,19.11 2,18V6C2,4.89 2.89,4 4,4H20M8.5,15V9H7.25V12.5L4.75,9H3.5V15H4.75V11.5L7.3,15H8.5M13.5,10.26V9H9.5V15H13.5V13.75H11V12.64H13.5V11.38H11V10.26H13.5M20.5,14V9H19.25V13.5H18.13V10H16.88V13.5H15.75V9H14.5V14A1,1 0 0,0 15.5,15H19.5A1,1 0 0,0 20.5,14Z" /></svg>
+</svg>
+<svg id="mdi:shield-refresh-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-shield-refresh-outline" viewBox="0 0 24 24"><path d="M12 21C8.2 20 5 15.5 5 11.2V6.3L12 3.2L19 6.3V12.1C19.7 12.2 20.3 12.4 20.9 12.7C21 12.1 21 11.6 21 11V5L12 1L3 5V11C3 16.5 6.8 21.7 12 23C12.4 22.9 12.7 22.8 13 22.7C12.6 22.2 12.2 21.6 12 21M18 14.5C19.1 14.5 20.1 14.9 20.8 15.7L22 14.5V18.5H18L19.8 16.7C19.3 16.3 18.7 16 18 16C16.6 16 15.5 17.1 15.5 18.5S16.6 21 18 21C18.8 21 19.5 20.6 20 20H21.7C21.1 21.5 19.7 22.5 18 22.5C15.8 22.5 14 20.7 14 18.5S15.8 14.5 18 14.5Z" /></svg>
 </svg>
 <svg id="mdi:toggle-switch">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-toggle-switch" viewBox="0 0 24 24"><path d="M17,7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7M17,15A3,3 0 0,1 14,12A3,3 0 0,1 17,9A3,3 0 0,1 20,12A3,3 0 0,1 17,15Z" /></svg>
@@ -980,7 +986,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
+<use href="#mdi:shield-refresh-outline" xlink:href="#mdi:shield-refresh-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:shield-refresh-outline"/>
 </g>
 <g transform="translate(84, 46)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1028,7 +1034,7 @@ rect.held, rect.combo.held {
 <g transform="translate(644, 81)" class="key keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;sys_reset</tspan></text>
+<use href="#mdi:shield-refresh-outline" xlink:href="#mdi:shield-refresh-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:shield-refresh-outline"/>
 </g>
 <g transform="translate(28, 137)" class="key sym_by_sym keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym side"/>
@@ -1088,7 +1094,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 193)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;studio_u…</tspan></text>
+<use href="#mdi:lock-open-variant-outline" xlink:href="#mdi:lock-open-variant-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:lock-open-variant-outline"/>
 </g>
 <g transform="translate(84, 158)" class="key trans keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1135,7 +1141,7 @@ rect.held, rect.combo.held {
 <g transform="translate(644, 193)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;studio_u…</tspan></text>
+<use href="#mdi:lock-open-variant-outline" xlink:href="#mdi:lock-open-variant-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:lock-open-variant-outline"/>
 </g>
 <g transform="translate(221, 221) rotate(15.0)" class="key held keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
@@ -2352,7 +2358,7 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<text x="0" y="-4" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;caps_word</tspan></text>
+<use href="#mdi:caps-lock" xlink:href="#mdi:caps-lock" x="-9" y="-13" height="18" width="18.0" class="key  combo-separate tap glyph mdi:caps-lock"/>
 </g>
 <g transform="translate(14, 99)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key side"/>
@@ -2497,7 +2503,9 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<text x="0" y="-4" class="key  combo-separate tap">Gui+C</text>
+<text x="0" y="-4" class="key  combo-separate tap">
+<tspan x="0" dy="-0.6em">LGUI(C</tspan><tspan x="0" dy="1.2em">)</tspan>
+</text>
 </g>
 <g transform="translate(14, 99)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key side"/>
@@ -2642,7 +2650,9 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<text x="0" y="-4" class="key  combo-separate tap">Gui+V</text>
+<text x="0" y="-4" class="key  combo-separate tap">
+<tspan x="0" dy="-0.6em">LGUI(V</tspan><tspan x="0" dy="1.2em">)</tspan>
+</text>
 </g>
 <g transform="translate(14, 99)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key side"/>
@@ -2787,7 +2797,9 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-13" height="18" width="18.0" class="key  combo-separate tap glyph mdi:backspace-outline"/>
+<text x="0" y="-4" class="key  combo-separate tap">
+<tspan x="0" dy="-1.2em" style="font-size: 67%">LGUI(</tspan><tspan x="0" dy="1.2em" style="font-size: 67%">BACKSPACE</tspan><tspan x="0" dy="1.2em" style="font-size: 67%">)</tspan>
+</text>
 </g>
 <g transform="translate(14, 99)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key side"/>

@@ -146,6 +146,9 @@ parse_config:
     '&act GREATER_THAN': '&act >'
     '&capsy': 'capsy'
     '&dis_tog':     '$$tablerf:brand-discord$$'
+    '&sys_reset': '$$mdi:shield-refresh-outline$$'
+    '&studio_unlock': '$$mdi:lock-open-variant-outline$$'
+    '&caps_word': '$$mdi:caps-lock$$'
     '&combo_swap_left':
       tap: $$mdi:arrow-decision-outline$$
       shifted: $$mdi:apple$$
@@ -764,8 +767,10 @@ parse_config:
     TAB: $$mdi:keyboard-tab$$
     LEFT_GUI: $$mdi:apple-keyboard-command$$
     LGUI: $$mdi:apple-keyboard-command$$
+    LG: $$mdi:apple-keyboard-command$$
     RIGHT_GUI: $$mdi:apple-keyboard-command$$
     RGUI: $$mdi:apple-keyboard-command$$
+    RG: $$mdi:apple-keyboard-command$$
     LEFT_ALT: $$mdi:apple-keyboard-option$$
     LALT: $$mdi:apple-keyboard-option$$
     RIGHT_ALT: $$mdi:apple-keyboard-option$$
