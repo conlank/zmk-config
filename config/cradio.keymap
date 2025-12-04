@@ -100,17 +100,17 @@
         };
 		    combo_copy {
             timeout-ms = <30>;
-			      bindings = <&kp LGUI(C)>;
+			      bindings = <&kp LG(C)>;
             key-positions = <30 22>;
         };
         combo_paste {
             timeout-ms = <30>;
-			      bindings = <&kp LGUI(V)>;
+			      bindings = <&kp LG(V)>;
             key-positions = <30 23>;
         };
         combo_word_backspace {
             timeout-ms = <30>;
-			      bindings = <&kp LGUI(BACKSPACE)>;
+			      bindings = <&kp LG(BACKSPACE)>;
             key-positions = <9 33>;
         };
         combo_line_backspace {
