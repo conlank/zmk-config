@@ -231,10 +231,10 @@ combos:
 - p: [20, 29]
   k: $$mdi:caps-lock$$
 - p: [30, 22]
-  k: LGUI(C)
+  k: LGUI+C
 - p: [30, 23]
-  k: LGUI(V)
+  k: LGUI+V
 - p: [9, 33]
-  k: LGUI(BACKSPACE)
+  k: LGUI+$$mdi:backspace-outline$$
 - p: [33, 19]
-  k: Gui+DEL
+  k: LGUI+DEL

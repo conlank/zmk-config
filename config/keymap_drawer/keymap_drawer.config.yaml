@@ -602,8 +602,8 @@ parse_config:
     right_shift: Sft
     left_alt: Alt
     right_alt: AltGr
-    left_gui: $$mdi:apple-keyboard-command$$
-    right_gui: $$mdi:apple-keyboard-command$$
+    left_gui: LGUI
+    right_gui: RGUI
     keycode_combiner: '{mods}+{key}'
     mod_combiner: '{mod_1}+{mod_2}'
     special_combinations:
