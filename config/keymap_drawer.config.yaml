@@ -126,6 +126,8 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
+    '&caps_word': $$mdi:apple-keyboard-caps$$
+    '&sys_reset': $$mdi:restart$$
     '&forward':  $$mdi:arrow-right-box$$
     '&backward': $$mdi:arrow-left-box$$
     '&tab_next':
@@ -598,9 +600,9 @@ parse_config:
     left_shift: Sft
     right_shift: Sft
     left_alt: Alt
-    right_alt: AltGr
-    left_gui: Gui
-    right_gui: Gui
+    right_alt: Alt
+    left_gui: Cmd
+    right_gui: Cmd
     keycode_combiner: '{mods}+{key}'
     mod_combiner: '{mod_1}+{mod_2}'
     special_combinations:
