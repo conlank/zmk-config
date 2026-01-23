@@ -1,4 +1,5 @@
 # Ferris Sweep ZMK Configuration
+[![Build Firmware](https://github.com/conlank/zmk-config/actions/workflows/build.yml/badge.svg)](https://github.com/conlank/zmk-config/actions/workflows/build.yml)
 
 This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) configuration for the split [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) keyboard. It supports a pair of nice!nano v2 peripherals that communicate with a dedicated [Seeed Studio XIAO nRF52840](https://amzn.to/3LOPtYW) board acting as the split dongle. The key split transport is provided by the [ZMK ESB Split Transport module](https://github.com/badjeff/zmk-feature-split-esb) for low-latency communication between the halves and the dongle.
 
@@ -10,6 +11,10 @@ This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) 
 - Battery reporting retained on peripherals with ESB transport.
 - Improved battery benefits of being in Dongle mode. 
 - GitHub Actions matrix configured to compile dongle and peripheral firmware artifacts.
+
+## Keymap
+
+![keyboard layout](./keymap/sweep.svg)
 
 ## Repository Layout
 
